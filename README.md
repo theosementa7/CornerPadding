@@ -1,4 +1,3 @@
 # CornerPadding
 
-Demo in ContentView
-Code in CornerPadding
+Demo in ContentView\nCode in CornerPadding
