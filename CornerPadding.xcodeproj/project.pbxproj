@@ -11,6 +11,7 @@
 		D99B86E12AF2580000C0EA03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B86E02AF2580000C0EA03 /* ContentView.swift */; };
 		D99B86E32AF2580100C0EA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99B86E22AF2580100C0EA03 /* Assets.xcassets */; };
 		D99B86E72AF2580100C0EA03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99B86E62AF2580100C0EA03 /* Preview Assets.xcassets */; };
+		D99B86EE2AF2582000C0EA03 /* CornerPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B86ED2AF2582000C0EA03 /* CornerPadding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D99B86E22AF2580100C0EA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D99B86E42AF2580100C0EA03 /* CornerPadding.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CornerPadding.entitlements; sourceTree = "<group>"; };
 		D99B86E62AF2580100C0EA03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D99B86ED2AF2582000C0EA03 /* CornerPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerPadding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				D99B86DE2AF2580000C0EA03 /* CornerPaddingApp.swift */,
 				D99B86E02AF2580000C0EA03 /* ContentView.swift */,
+				D99B86ED2AF2582000C0EA03 /* CornerPadding.swift */,
 				D99B86E22AF2580100C0EA03 /* Assets.xcassets */,
 				D99B86E42AF2580100C0EA03 /* CornerPadding.entitlements */,
 				D99B86E52AF2580100C0EA03 /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				D99B86E12AF2580000C0EA03 /* ContentView.swift in Sources */,
 				D99B86DF2AF2580000C0EA03 /* CornerPaddingApp.swift in Sources */,
+				D99B86EE2AF2582000C0EA03 /* CornerPadding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
