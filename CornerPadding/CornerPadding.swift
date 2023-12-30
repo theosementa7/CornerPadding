@@ -25,6 +25,14 @@ struct CornerPadding: ViewModifier {
             return content.padding([.top, .leading], value)
         case .topRight:
             return content.padding([.top, .trailing], value)
+        case .ignoringRight:
+            return content.padding([.vertical, .leading], value)
+        case .ignoringLeft:
+            return content.padding([.vertical, .trailing], value)
+        case .ignoringTop:
+            return content.padding([.horizontal, .bottom], value)
+        case .ignoringBottom:
+            return content.padding([.horizontal, .top], value)
         }
     }
 }
