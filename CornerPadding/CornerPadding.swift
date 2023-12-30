@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CornerPadding: ViewModifier {
     enum Corner {
-        case bottomRight, bottomLeft, topLeft, topRight
+        case bottomRight, bottomLeft, topLeft, topRight, ignoringRight, ignoringLeft, ignoringTop, ignoringBottom
     }
     
     var corner: Corner
